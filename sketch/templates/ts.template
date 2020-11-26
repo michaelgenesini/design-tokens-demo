@@ -1,0 +1,32 @@
+/**
+ * Do not edit directly
+ */
+
+export const colors = {<% _(allProperties).filter(['attributes.category', 'color']).each(function(prop) { %>
+  <%= prop.name %>: '<%= prop.value %>',<% if (prop.comment) { %> // <%= prop.comment %><% } %><% }); %>
+} as const
+
+export type TColor = typeof colors
+export type TColorName = keyof TColor
+
+export const sizes = {<% _(allProperties).filter(['attributes.category', 'size']).each(function(prop) { %>
+  <%= prop.name %>: <%= prop.value %>,<% if (prop.comment) { %> // <%= prop.comment %><% } %><% }); %>
+} as const
+
+export type TSize = typeof sizes
+export type TSizeInt = TSize[keyof TSize]
+export type TSizeName = keyof TSize
+
+export const typography = {<% _(allProperties).filter(['attributes.category', 'typography']).groupBy('attributes.type').map((value, key) => ({ name: key, values: value})).each(function(group) { %>
+  <%= group.name %>: {<% _(group.values).each(function(prop) { %>
+    <%= _.camelCase(prop.path.slice(2, prop.path.length)) %>: "<%= prop.value %>",<% }); %>
+  },<% }); %>
+} as const
+
+export const tokens = {
+  colors,
+  sizes,
+  typography,
+}
+
+export type TToken = typeof tokens

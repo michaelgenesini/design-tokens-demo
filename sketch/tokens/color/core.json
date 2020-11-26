@@ -1,0 +1,25 @@
+{
+  "color": {
+    "red": {
+      "050": {
+        "value": "rgb(253, 245, 242)",
+        "comment": "look how this comment will appear in the generated files"
+      },
+      "100": {
+        "value": "rgb(252, 235, 230)"
+      },
+      "300": {
+        "value": "rgb(246, 196, 180)"
+      },
+      "600": {
+        "value": "rgb(237, 139, 106)"
+      },
+      "900": {
+        "value": "rgb(225, 61, 6)"
+      }
+    },
+    "white": {
+      "value": "rgb(255, 255, 255)"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "typography": {
+    "heading": {
+      "font_family": {
+        "value": "'Formular', -apple-system, 'San Francisco', 'Helvetica Neue', 'Segoe WP', 'Segoe UI', Roboto, sans-serif"
+      },
+      "variants": {
+        "s": {
+          "font_size": {
+            "value": 24
+          },
+          "line_height": {
+            "value": 26
+          }
+        },
+        "m": {
+          "font_size": {
+            "value": 32
+          },
+          "line_height": {
+            "value": 32
+          }
+        },
+        "l": {
+          "font_size": {
+            "value": 44
+          },
+          "line_height": {
+            "value": 48
+          }
+        }
+      }
+    },
+    "body": {
+      "font_family": {
+        "value": "'Work Sans', -apple-system, 'San Francisco', 'Helvetica Neue', 'Segoe WP', 'Segoe UI', Roboto, sans-serif"
+      },
+      "variants": {
+        "xxs": {
+          "font_size": {
+            "value": 10
+          },
+          "line_height": {
+            "value": 16
+          }
+        },
+        "xs": {
+          "font_size": {
+            "value": 12
+          },
+          "line_height": {
+            "value": 16
+          }
+        },
+        "s": {
+          "font_size": {
+            "value": 14
+          },
+          "line_height": {
+            "value": 16
+          }
+        },
+        "m": {
+          "font_size": {
+            "value": 16
+          },
+          "line_height": {
+            "value": 20
+          }
+        },
+        "l": {
+          "font_size": {
+            "value": 20
+          },
+          "line_height": {
+            "value": 24
+          }
+        },
+        "xl": {
+          "font_size": {
+            "value": 24
+          },
+          "line_height": {
+            "value": 26
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,8 +1,15 @@
 {
   "name": "design-tokens-demo",
   "version": "1.0.0",
+  "private": true,
   "main": "index.js",
   "repository": "git@github.com:michaelgenesini/design-tokens-demo.git",
   "author": "Michael Genesini <michael.genesini@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "sketch"
+  ],
+  "devDependencies": {
+    "style-dictionary": "2.10.0"
+  }
 }

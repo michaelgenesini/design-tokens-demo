@@ -1,0 +1,17 @@
+{
+  "name": "sketch",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build:sd": "style-dictionary build --config ./config.js",
+    "build": "node ./build"
+  },
+  "devDependencies": {
+    "sketch-constructor": "1.21.2",
+    "style-dictionary": "2.10.0"
+  },
+  "dependencies": {
+    "chalk": "4.1.0",
+    "lodash": "4.17.15"
+  }
+}
