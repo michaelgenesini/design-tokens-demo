@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "chalk": "4.1.0",
-    "lodash": "4.17.19"
+    "lodash": "4.17.21"
   }
 }
